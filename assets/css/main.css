@@ -1,0 +1,14 @@
+.logo a img {
+    width: 200px;
+    height: 100px;
+}
+
+.header-top {
+    display: -webkit-box;
+    padding-top: 20px;
+}
+
+div.item>img{
+    width:100%;
+    height: 300px;
+}
