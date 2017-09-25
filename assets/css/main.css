@@ -1,14 +1,560 @@
+body div.container {
+    background: #F1F1F1;
+}
+
+section {
+    overflow: hidden;
+}
+
+.left {
+    float: left;
+}
+
+.right {
+    float: right;
+}
+
+ul {
+    list-style: none;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+div.item>img {
+    width: 100%;
+    height: 310px;
+}
+
+.single-video {
+    height: 350px;
+}
+
+div.relative input {
+    width: 100%;
+    padding-right: 30px;
+}
+
+div.absolute {
+    position: absolute;
+    top: 0px;
+    right: 10px;
+}
+
+div.absolute i.fa.fa-search {
+    color: #0C0E0D;
+    font-size: 20px;
+    line-height: 35px;
+}
+
+div.absolute i.fa.fa-search:hover {
+    color: #399;
+    cursor: pointer;
+}
+
+
+/********************************* Header **********************************/
+
+
+/************* Header top **************/
+
+.header-top {
+    padding-top: 1px;
+    overflow: hidden;
+    max-height: 120px;
+}
+
+
+/***** Logo *****/
+
+.logo {
+    text-align: right;
+    max-height: 120px;
+}
+
 .logo a img {
-    width: 200px;
+    width: 190px;
+    margin-top: -25px;
+}
+
+
+/***** End Logo *****/
+
+
+/***** Header Addvertise ****/
+
+.header-top div.col-md-8 div.owl-carousel div.item img {
+    height: 120px;
+}
+
+.header-top div.col-md-8 div.owl-carousel .owl-dot,
+.header-top div.col-md-8 div.owl-carousel .owl-nav .owl-next,
+.header-top div.col-md-8 div.owl-carousel .owl-nav .owl-prev {
+    display: none;
+}
+
+
+/***** End Header Addvertise ****/
+
+
+/***** Login registration ****/
+
+.log-reg {
+    float: right;
+    margin: 45px auto;
+}
+
+
+/***** End Login registration ****/
+
+
+/*************** End Header top *****************/
+
+
+/*************** Header Menu *****************/
+
+.header-menu {
+    padding: 20px 0px;
+}
+
+div.header-menu div.col-md-12 {
+    padding: 0px;
+}
+
+.header-menu nav.navbar {
+    background: #05653d!important;
+    margin: 0px !important;
+    border-radius: 0px!important;
+}
+
+.header-menu div.navbar-header {
+    float: none;
+    min-height: 65px;
+}
+
+.header-menu form.navbar-form.navbar-left {
+    padding-left: 80px;
+}
+
+.header-menu ul.nav.navbar-nav.navbar-right {
+    padding-top: 5px;
+}
+
+.header-menu.nav>li>a:focus,
+.nav>li>a:hover {
+    background-color: none;
+    /*    border-radius: 7px;*/
+    color: #399;
+    outline: none;
+}
+
+div.header-menu ul.nav.navbar-nav {
+    padding-top: 8px;
+}
+
+div.header-menu ul.nav.navbar-nav li a {
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 12px;
+}
+
+div.header-menu div.nav .open>a,
+.nav .open>a:focus,
+.nav .open>a:hover {
+    background: none;
+    color: #399;
+    /*    border-radius:7px;*/
+}
+
+div.header-menu ul.dropdown-menu {
+    background: #05653D;
+}
+
+div.header-menu ul.dropdown-menu>li>a:focus,
+.dropdown-menu>li>a:hover {
+    background: none!important;
+    color: #2ECC71!important;
+}
+
+.nav>li>a:focus,
+.nav>li>a:hover {
+    background: none!important;
+    color: #2ECC71!important;
+}
+
+.header-menu ul .dropdown-menu>li>a {
+    padding: 10px 15px;
+}
+
+div.relative {
+    position: relative;
+    margin-top: 8px;
+}
+
+
+/*************** End Header Menu *****************/
+
+
+/*************** Playlist *****************/
+
+#Playlist {
+    min-height: 50px;
+    background: #333;
+    color: #fff;
+    margin-left: -15px;
+    margin-right: -15px;
+}
+
+#Playlist div.row div.col-md-6 h4 {
+    line-height: 50px;
+    padding: 0px 20px;
+}
+
+#Playlist p {
+    margin: 0;
+    line-height: 50px;
+    padding-left: 20px;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+#Playlist p.right {
+    padding-right: 20px;
+}
+
+#Playlist audio {
+    padding-top: 40px;
+}
+
+
+/*************** End Playlist *****************/
+
+
+/*************** Slider *****************/
+
+section#Slider {
+    margin-left: -15px;
+    margin-right: -15px;
+}
+
+#Slider .owl-carousel .owl-dot,
+.owl-carousel .owl-nav .owl-next,
+.owl-carousel .owl-nav .owl-prev,
+#Slider .owl-carousel .owl-dot,
+.owl-carousel .owl-nav .owl-next,
+.owl-carousel .owl-nav .owl-next {
+    position: absolute;
+    top: 50%;
+    margin-top: -15px;
+    display: none;
+}
+
+#Slider .owl-carousel .owl-dot,
+.owl-carousel .owl-nav .owl-next,
+.owl-carousel .owl-nav .owl-prev {
+    left: 10;
+}
+
+#Slider .owl-carousel .owl-dot,
+.owl-carousel .owl-nav .owl-next,
+.owl-carousel .owl-nav .owl-next {
+    right: 0;
+}
+
+#Slider .owl-carousel .owl-dot,
+.owl-carousel .owl-nav .owl-next,
+.owl-carousel .owl-nav .owl-prev:after {
+    content: "\f053";
+}
+
+#Slider .owl-carousel .owl-dot,
+.owl-carousel .owl-nav .owl-next,
+.owl-carousel .owl-nav .owl-next:before {
+    content: "\f054";
+}
+
+
+/*************** End Slider *****************/
+
+
+/*************** Recent-news *****************/
+
+#Recent-news {
+    min-height: 100px;
+    background: #05653D;
+    margin-left: -15px;
+    margin-right: -15px;
+}
+
+.news-headlines,
+h3.latest {
+    line-height: 100px;
+    color: #fff;
+}
+
+h3.latest {
+    margin: 0px;
+    padding-left: 20px;
+}
+
+.news-headlines a.news-space {
+    color: #d1ff21;
+    font-size: 18px;
+    text-decoration: none;
+    margin-right: 50px;
+}
+
+.news-headlines a.news-space:hover {
+    color: #fff;
+}
+
+
+/*************** Latest News *****************/
+
+
+/*************** Song Show *****************/
+
+#Song-Show {
+    padding-top: 40px;
+}
+
+
+/********** Hot Song ************/
+
+div.hot-song h3,
+div.shows h3 {
+    text-align: center;
+    margin-bottom: 30px;
+    text-transform: uppercase;
+    font-weight: 700;
+}
+
+audio {
+    width: 300px;
+    height: 32px;
+}
+
+i.fa.fa-download {
+    font-size: 26px;
+    position: absolute;
+    padding-top: 6px;
+    background: #FAFAFA;
+    color: #5A5A5A;
+}
+
+div.hot-song div.row {
+    margin-bottom: 10px;
+    min-height: 50px;
+}
+
+
+/********** End Hot Song ************/
+
+
+/********** Shows ************/
+
+.single-show {
+    min-height: 240px;
+}
+
+.single-show img {
+    width: 100%;
+    height: 150px;
+}
+
+div.middle-add img {
+    width: 100%;
+    padding-left: 15px;
+    padding-right: 15px;
     height: 100px;
 }
 
-.header-top {
-    display: -webkit-box;
-    padding-top: 20px;
+div.middle-add {
+    padding: 15px 0px 30px;
 }
 
-div.item>img{
-    width:100%;
-    height: 300px;
+
+/********** End Shows ************/
+
+
+/********** Videos ************/
+
+.big-videos {
+    overflow: hidden;
+    margin: 50px 0px;
 }
+
+
+
+/********** End Videos ************/
+
+
+/*News menu start*/
+
+
+section#news {
+    margin-left: -15px;
+    margin-right: -15px;
+    padding: 0 15px;
+}
+
+#news h2.text-center {
+    margin-bottom: 0px;
+    font-weight: bold;
+    font-size: 40px;
+    background: #399;
+    padding: 20px;
+    color: #fff;
+}
+
+.news-menu {
+    background-color: #4CAF50;
+    height: 55px;
+}
+
+.dropbtn {
+    background-color: #4CAF50;
+    color: white;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+}
+
+.dropdown-content a {
+    color: #fff;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    background-color: #3e8e41;
+}
+
+.dropdown-content a:hover {
+    background-color: #f1f1f1;
+    color: black;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+.dropdown:hover .dropbtn {
+    background-color: #3e8e41;
+}
+
+
+/*News menu end*/
+
+
+/*News Box*/
+
+.news-box a {
+    text-decoration: none;
+    color: black;
+}
+
+
+/*update-news start*/
+
+.update-news {
+    margin-top: 50px;
+}
+
+.update-news li {
+    list-style: none;
+}
+
+.update-news li a {
+    text-decoration: none;
+    line-height: 30px;
+    color: black;
+    font-size: 18px;
+}
+
+.i-red {
+    color: red;
+}
+
+.comment {
+    margin-top: 20px;
+}
+
+.form-section {
+    width: 400px;
+}
+
+.comment-add img {
+    margin-left: 20px;
+}
+
+
+/********** End Videos ************/
+
+
+/********** Contact-us ************/
+
+#Contact-us {
+    padding: 30px 0px 50px;
+    background: #3F474D;
+    margin-left: -15px;
+    margin-right: -15px;
+    color: #fff;
+}
+
+#Contact-us h3.text-center {
+    margin: 0px;
+    padding-bottom: 30px;
+    text-transform: uppercase;
+    font-weight: bold;
+    color: #fff;
+}
+
+
+/********** End Contact-us ************/
+
+
+/********** Footer ************/
+
+footer#Footer {
+    background: #333;
+    color: #fff;
+    margin-left: -15px;
+    margin-right: -15px;
+    padding-bottom: 30px;
+}
+
+.address a {
+    color: #fff;
+}
+
+.powered-by a {
+    color: #DE6A50;
+    text-decoration: none;
+    font-size: 20px;
+}
+
+.powered-by a:hover {
+    color: #399;
+}
+
+.address a:hover {
+    color: #DE6A50;
+}
+
+
+/********** End Footer ************/
